@@ -1,0 +1,56 @@
+/*Universal Styles*/
+body {
+    background-color: white;
+    color: darkgray;
+    font-size: 22px;
+    text-align: center;
+}
+
+a {
+    color: cornflowerblue;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+.flex-conatiner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*Header*/
+
+header {
+    height: 64px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+header img {
+    height: 32px;
+    float: left;
+    padding-left: 24px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+header h1 span {
+    font-weight: lighter;
+}
+
+nav {
+    text-align: right;
+    padding: 0 16px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
