@@ -18,17 +18,18 @@ h2 {
     font-weight: lighter;
 }
 
-.flex-conatiner {
+div.flex-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
+
 /*Header*/
 
 header {
     height: 64px;
-    position: fixed;
-    z-index: 1;
+    /*position: fixed;
+    z-index: 1;*/
     background-color: white;
 }
 
@@ -40,6 +41,7 @@ header img {
 
 header h1 {
     font-size: 32px;
+    /*float: left;*/
 }
 header h1 span {
     font-weight: lighter;
@@ -50,7 +52,48 @@ nav {
     padding: 0 16px;
 }
 
-nav span {
-    display: inline-block;
-    padding: 20px 10px;
+/*Main Section*/
+
+.main {
+    padding-top: 64px;
+    width: 1200px;
+    margin: auto;
 }
+
+/*Learn Something Section*/
+/*#learnS {
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+#learnS img {
+    width: 60%;
+    padding: 24px 32px;
+}
+#learnS span {
+    padding: 8px 0;
+}
+
+/*Practice Section*/
+/*#practice {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+}
+
+.practiceleft {
+    display: inline-flex;
+    width: 60%;
+}
+
+.practiceleft img {
+    
+    padding: 24px 32px;
+}
+.practiceright {
+    display: inline-flex;
+    width: 40%;
+}*/
